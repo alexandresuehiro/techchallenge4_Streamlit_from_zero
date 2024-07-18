@@ -1,6 +1,6 @@
-<<<<<<< HEAD
-streamlit
-=======
+#<<<<<<< HEAD
+#streamlit
+#=======
 absl-py==2.1.0
 altair==5.2.0
 astunparse==1.6.3
@@ -89,4 +89,4 @@ watchdog==4.0.0
 Werkzeug==3.0.2
 wrapt==1.14.1
 zipp==3.17.0
->>>>>>> f36f782 (Initial commit)
+#>>>>>>> f36f782 (Initial commit)
