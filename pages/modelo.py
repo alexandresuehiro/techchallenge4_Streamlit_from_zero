@@ -1,8 +1,8 @@
 import streamlit as st
-from tabs.modelo.lstm_tab import ModeloLSTMTab
+from tabs.modelo.arima_tab import ModeloARIMATab
 from tabs.modelo.prophet_tab import ModeloProphetTab
-from util.constantes import TITULO_MODELO, TITULO_PRINCIPAL
-from util.layout import output_layout
+from utils.constantes import TITULO_MODELO, TITULO_PRINCIPAL
+from utils.layout import output_layout
 
 st.set_page_config(
     page_title=f"{TITULO_MODELO} | {TITULO_PRINCIPAL}",
@@ -19,7 +19,7 @@ with st.container():
     """
     )
 
-    tab0, tab1 = st.tabs(tabs=["Meta Prophet", "Tensorflow Keras LSTM"])
+    tab0, tab1 = st.tabs(tabs=["Meta Prophet", "ARIMA"])
 
     ModeloProphetTab(tab0)
-    ModeloLSTMTab(tab1)
+    ModeloARIMATab(tab1)

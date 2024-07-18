@@ -1,6 +1,6 @@
 import streamlit as st
-from util.constantes import TITULO_PRINCIPAL, TITULO_REFERENCIAS
-from util.layout import output_layout
+from utils.constantes import TITULO_PRINCIPAL, TITULO_REFERENCIAS
+from utils.layout import output_layout
 
 st.set_page_config(
     page_title=f"{TITULO_REFERENCIAS} | {TITULO_PRINCIPAL}",

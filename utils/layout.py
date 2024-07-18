@@ -17,7 +17,8 @@ def output_layout():
             Page("./pages/analise.py", TITULO_ANALISE_EXPLORATORIA, use_relative_hash=True),#":memo:", use_relative_hash=True),
             Page("./pages/modelo.py", TITULO_MODELO, use_relative_hash=True),               #":robot_face:", use_relative_hash=True),
             Page("./pages/reflexoes.py", TITULO_REFLEXOES, use_relative_hash=True),         #":robot_face:", use_relative_hash=True),
-            Page("./pages/refs.py", TITULO_REFERENCIAS, use_relative_hash=True)             #":globe_with_meridians:", use_relative_hash=True),
+            Page("./pages/instructions.py", TITULO_INSTRUCTIONS, use_relative_hash=True),         #":robot_face:", use_relative_hash=True),
+            Page("./pages/ref_bibliografica.py", TITULO_REFERENCIAS, use_relative_hash=True)             #":globe_with_meridians:", use_relative_hash=True),
         ]
     )
 
@@ -25,20 +26,6 @@ def output_layout():
         st.subheader("Aluno")
         st.text("Alexandre Suehiro de Paula e Silva")
         st.text("RM 352798 - 3DTAT")
-
-        st.divider()
-
-        st.subheader("Como construir o app?")
-        st.text("Do zero, no site do streamlit")
-        st.text("Acessar o 'Create app' - 'Blank App'")
-        
-        st.subheader("Como construir o app (localmente)?")
-        st.text("Criar ambiente com Virtualenv")
-        st.code(body="python -m venv venv", language="shell")
-        st.code(body="source venv/Scripts/activate", language="shell")
-        st.code(body="pip install -r requirements.txt", language="shell")
-        st.subheader("Executar localmente")
-        st.code(body="streamlit run main.py", language="shell")
 
         st.divider()
 
