@@ -9,7 +9,7 @@ import streamlit as st
 from utils.constantes import TITULO_PRINCIPAL
 from utils.layout import output_layout
 import warnings
-import locale
+
 
 
 warnings.filterwarnings("ignore")

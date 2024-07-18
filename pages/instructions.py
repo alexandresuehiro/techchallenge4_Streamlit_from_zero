@@ -1,26 +1,13 @@
 import streamlit as st
-from pages import show_pages, Page
-import locale
+from utils.constantes import TITULO_PRINCIPAL, TITULO_REFERENCIAS
+from utils.layout import output_layout
 
 from utils.constantes import TITULO_ANALISE_EXPLORATORIA, TITULO_HISTORIA, TITULO_INTRODUCAO, TITULO_MODELO, TITULO_REFLEXOES, TITULO_REFERENCIAS
 
 def format_number(number, format='%0.0f'):
     return locale.format(format, number, grouping=True)
 
-def output_layout():
-    show_pages(
-        [
-            Page("./main.py", "Tech Challenge 4", use_relative_hash=True),                  # ":house:", use_relative_hash=True),
-            Page("./pages/intro.py", TITULO_INTRODUCAO, use_relative_hash=True),            #":books:", use_relative_hash=True),
-            Page("./pages/historia.py", TITULO_HISTORIA, use_relative_hash=True),           #":open_book:", use_relative_hash=True),
-            Page("./pages/analise.py", TITULO_ANALISE_EXPLORATORIA, use_relative_hash=True),#":memo:", use_relative_hash=True),
-            Page("./pages/modelo.py", TITULO_MODELO, use_relative_hash=True),               #":robot_face:", use_relative_hash=True),
-            Page("./pages/reflexoes.py", TITULO_REFLEXOES, use_relative_hash=True),         #":robot_face:", use_relative_hash=True),
-            Page("./pages/refs.py", TITULO_REFERENCIAS, use_relative_hash=True)             #":globe_with_meridians:", use_relative_hash=True),
-        ]
-    )
-
-    with st._main:
+with st._main:
 
         st.subheader("Como construir o app?")
         st.text("Do zero, no site do streamlit")

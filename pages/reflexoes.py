@@ -1,11 +1,6 @@
 import streamlit as st
-from tabs.intro.eia_tab import IntroEIATab
-from tabs.intro.ipea_tab import IntroIPEATab
-from tabs.intro.meta_prophet import IntroMetaProphet
-from tabs.intro.petroleo_brent_tab import IntroPetroleoBrentTab
-from tabs.intro.tensorflow_keras_lstm import IntroTensorflowKerasLSTM
-from util.constantes import TITULO_INTRODUCAO, TITULO_PRINCIPAL
-from util.layout import output_layout
+from utils.constantes import TITULO_PRINCIPAL, TITULO_REFERENCIAS
+from utils.layout import output_layout
 
 st.set_page_config(
     page_title=f"{TITULO_INTRODUCAO} | {TITULO_PRINCIPAL}",
