@@ -17,21 +17,20 @@ with st.container():
 
     st.markdown(
         """
-        Nesta introdução, são descritos alguns tópicos importantes para o entendimento do projeto, dentre eles oque é o petróleo Brent, a EIA e o IPEA.
+        Nesta introdução, são descritos alguns tópicos importantes para o entendimento do projeto, dentre eles oque é o petróleo Brent, o IPEA e os modelos de Machine Learning usados: o Meta Prophet e o ARIMA.
     """
     )
 
-    tab0, tab1, tab2, tab3, tab4 = st.tabs(
+    tab0, tab1, tab2, tab3 = st.tabs(
         tabs=[
             "Petróleo Brent",
             "Instituto de Pesquisa Econômica Aplicada (IPEA)",
-            "Energy Information Administration (EIA)",
             "Meta Prophet",
-            "Tensorflow Keras LSTM"
+            "ARIMA"
         ]
     )
 
     IntroPetroleoBrentTab(tab0)
     IntroIPEATab(tab1)
-    IntroMetaProphet(tab3)
-    IntroARIMA(tab4)
+    IntroMetaProphet(tab2)
+    IntroARIMA(tab3)
