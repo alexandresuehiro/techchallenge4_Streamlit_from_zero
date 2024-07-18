@@ -1,11 +1,11 @@
 import streamlit as st
-<<<<<<< HEAD
-
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
-=======
+#<<<<<<< HEAD
+#
+#st.title("🎈 My new app")
+#st.write(
+#    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+#)
+#=======
 from utils.constantes import TITULO_PRINCIPAL
 from utils.layout import output_layout
 import warnings
@@ -48,4 +48,4 @@ st.markdown(
     2. O segundo modelo utiliza o algoritmo de rede neural LSTM (Long Short-Term Memory);
 """
 )
->>>>>>> f36f782 (Initial commit)
+#>>>>>>> f36f782 (Initial commit)
