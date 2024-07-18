@@ -7,8 +7,8 @@ import pandas as pd
 import plotly.graph_objs as go
 from prophet.plot import plot_plotly
 from prophet.serialize import model_from_json
-from util.constantes import DATA_INICIAL
-from util.layout import format_number
+from utils.constantes import DATA_INICIAL
+from utils.layout import format_number
 
 
 class ModeloProphetTab(TabInterface):

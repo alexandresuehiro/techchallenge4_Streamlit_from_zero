@@ -1,6 +1,6 @@
 import streamlit as st
 from tabs.historia.evento_tab import EventoTab
-from util.layout import format_number
+from utils.layout import format_number
 
 
 class HistoriaEvento5Tab(EventoTab):

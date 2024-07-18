@@ -14,8 +14,7 @@ class IntroMetaProphet(TabInterface):
             )
             st.markdown(
                 """
-                Segundo a página do projeto, o Prophet é uma ferramenta para previsão de dados de séries temporais com base em um modelo aditivo onde tendências não lineares são ajustadas com sazonalidades anuais, semanais e diárias, além de efeitos de feriados. Ele funciona melhor com séries temporais que possuem fortes efeitos sazonais e vários anos de dados históricos. O Prophet é robusto em relação a dados ausentes e mudanças na tendência e geralmente lida bem com valores discrepantes.\n\n
-                Além disso ele é um software de código aberto, disponível no GitHub e mantido pela equipe de cientistas de dados da Meta.
+                Devido a necessidade de realizar previsões, a empresa Facebook criou em 2017 o Prophet, um framework para previsões de séries temporais, acessível através de API tanto em R quanto em Python e que segue o princípio de uma série temporal poder ser decomposta em 4 componentes: tendência, sazonalidade, uma componente que comporte as variações devido a feriados, e os erro como quarta.
                 <br/><br/>
             """,
                 unsafe_allow_html=True,
@@ -29,9 +28,4 @@ class IntroMetaProphet(TabInterface):
                 with col0:
                     st.image(
                         "assets/imgs/logo-meta.png", width=220, caption="Logo do Meta"
-                    )
-
-                with col1:
-                    st.image(
-                        "assets/imgs/logo-meta-prophet.svg", width=220, caption="Logo do Meta Prophet"
                     )

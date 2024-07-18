@@ -19,24 +19,25 @@ output_layout()
 
 st.header(f":orange[{TITULO_PRINCIPAL}]")
 
+st.subheader(":blue[Objetivo]", divider="blue")
+st.markdown(
+    """
+    Este trabalho tem por finalidade analisar o histórico de preços do petróleo Brent e criar modelos de machine learning que auxiliem na previsão do seu preço futuro. Para a realização deste trabalho, foi necessário analisar termos e fontes de dados para implementar processos de Machine Learning e exibi-los via Streamlit.
+"""
+)
+
 st.subheader(
-    ":blue[Análise histórica do petróleo Brent: analisando o seu passado e prevendo o seu futuro]",
+    ":blue[Sobre o petróleo Brent]",
     divider="blue",
 )
 st.markdown(
     """
-    Este projeto tem como propósito analisar as flutuações históricas do preço do petróleo Brent e criar modelos de machine learning para prever seus valores futuros. O petróleo Brent, como uma referência internacional essencial para os preços do petróleo, é amplamente utilizado em transações comerciais e contratos futuros em âmbito global. Compreender as tendências passadas e identificar padrões nos dados históricos do preço do petróleo Brent oferece insights valiosos para investidores, empresas e formuladores de políticas energéticas.\n\n
-    Ao explorar os dados históricos do preço do petróleo Brent, realizaremos análises estatísticas para compreender melhor os padrões e tendências ao longo do tempo. Este processo incluirá a identificação de fatores que influenciam significativamente o preço do petróleo, como oferta e demanda, geopolítica e condições econômicas globais. Além disso, utilizaremos técnicas de visualização de dados para destacar padrões e correlações relevantes, o que nos permitirá desenvolver insights mais aprofundados sobre o comportamento do mercado de petróleo.\n\n
-    Após a análise, são criados dois modelo de machine learning voltados para séries temporais que serão responsáveis por prever o preço futuro do barril de petróleo Brent.
+    O Petróleo Brent é a referência internacional para os preços do petróleo, uma commodity muito valiosa por seu uso em geração de energia, transporte e outras finalidades.
+Os valores históricos apresentados denotam que a geopolítica exerce grande influência ao causar grandes perturbações, por isso se torna crucial saber o comportamento do preço em situações extremamente críticas.
 """
 )
 
-st.subheader(":blue[Objetivo]", divider="blue")
-st.markdown(
-    """
-    Analisar o histórico de preços do petróleo Brent e criar modelos de machine learning que auxiliem na previsão do seu preço futuro. Durante este projeto, também é abordado a questão de *deploy* de modelos num ambiente produtivo, no caso, esta aplicação Streamlit.
-"""
-)
+
 
 st.subheader(":blue[Metodologia]", divider="blue")
 st.markdown(

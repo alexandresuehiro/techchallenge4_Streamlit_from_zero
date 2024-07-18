@@ -12,7 +12,8 @@ class IntroARIMA(TabInterface):
             st.subheader(":blue[Arima]", divider="blue")
             st.markdown(
                 """
-                    ARIMA é uma plataforma de código aberto para aprendizado de máquina desenvolvida pelo Google. Ele oferece uma estrutura flexível e abrangente para construir e treinar modelos de aprendizado de máquina, utilizando tensores como sua estrutura básica de dados. TensorFlow é altamente escalável e adequado para uma ampla gama de aplicativos de aprendizado de máquina, desde reconhecimento de imagem até processamento de linguagem natural.
+                    Uma média móvel integrada autoregressiva, ou ARIMA, é um modelo de análise estatística que usa dados de séries temporais para compreender melhor o conjunto de dados ou para prever tendências futuras.
+                    Um modelo estatístico é autoregressivo se prever valores futuros com base em valores passados. Por exemplo, um modelo ARIMA pode procurar prever os preços futuros de uma ação com base no seu desempenho passado ou prever os lucros de uma empresa com base em períodos passados.
                 """,
                 unsafe_allow_html=True,
             )
