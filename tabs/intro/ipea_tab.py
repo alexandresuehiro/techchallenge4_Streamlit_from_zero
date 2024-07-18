@@ -14,9 +14,8 @@ class IntroIPEATab(TabInterface):
             )
             st.markdown(
                 """
-                O Instituto de Pesquisa Econômica Aplicada (IPEA) é uma instituição governamental brasileira vinculada ao Ministério da Economia, responsável por produzir pesquisas e estudos de alta qualidade em economia e políticas públicas. Fundado em 1964, o IPEA desempenha um papel fundamental na formulação e avaliação de políticas governamentais, fornecendo análises e recomendações baseadas em evidências para contribuir com o desenvolvimento socioeconômico do Brasil.\n\n
-                Sua produção de conhecimento abrange uma ampla gama de áreas, incluindo macroeconomia, mercado de trabalho, saúde, educação, meio ambiente e segurança pública, entre outras, e sua atuação é reconhecida nacional e internacionalmente como uma fonte confiável de informações e análises para tomadores de decisão, acadêmicos e sociedade em geral.\n\n
-                Neste projeto, inicialmente foram consultados os dados do IPEA, mas no fim, a base final foi obtida diretamente da mesma fonte que eles utilizam, o EIA.
+                A fundação Instituto de Pesquisa Econômica Aplicada (Ipea) é uma fundação pública federal vinculada ao Ministério do Planejamento e Orçamento (MPO) criada em 1964 como Epea (Escritório) e assumindo o nome atual em 1967.
+                Suas atividades de pesquisa fornecem suporte técnico e institucional às ações do governo para a formulação e reformulação de políticas públicas e programas de desenvolvimento. Os trabalhos do Ipea são disponibilizados para a sociedade por meio de publicações (todas disponíveis gratuitamente em www.ipea.gov.br), seminários e um programa semanal de TV (Panorama Ipea, no canal NBR).
                 <br/><br/>
             """,
                 unsafe_allow_html=True,
