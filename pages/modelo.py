@@ -15,7 +15,7 @@ with st.container():
 
     st.markdown(
         """
-        Prever o preço do barril de petróleo é um desafio crítico para muitos setores, e tanto o :blue[Prophet] quanto a :blue[LSTM] são ferramentas valiosas nessa tarefa. O :blue[Prophet], criado pela :blue[Meta], é conhecido por sua acessibilidade e habilidade em lidar com padrões sazonais complexos, enquanto a :blue[LSTM], fornecido pela junção do :blue[Tensorflow & Keras], é uma forma de rede neural recorrente, se destaca em capturar relações de longo prazo nos dados, algo essencial em mercados voláteis como o do petróleo. Ambos os modelos oferecem abordagens poderosas e complementares para entender e antecipar as flutuações no mercado de energia, fornecendo insights valiosos para tomadas de decisão.
+        Prever o preço do barril de petróleo é um desafio crítico para muitos setores, e tanto o :blue[Prophet] quanto a :blue[ARIMA] são ferramentas valiosas nessa tarefa. O que torna complexa é a capacidade de um algoritmo prever sazonalidades ou eventos incomuns, como pandemias ou atentados, por isso uma análise mais profunda pode ser necessária além do escopo oferecido até aqui.
     """
     )
 

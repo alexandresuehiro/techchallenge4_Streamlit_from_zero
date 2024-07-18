@@ -25,7 +25,7 @@ with st._main:
         st.subheader("Repositórios do projeto")
         st.link_button(
             "Repositório Streamlit",
-            "https://github.com/dhachcar/postech-tech-challenge-4-streamlit",
+            "https://github.com/alexandresuehiro/techchallenge4_Streamlit_from_zero",
             help=None,
             type="secondary",
             disabled=False,

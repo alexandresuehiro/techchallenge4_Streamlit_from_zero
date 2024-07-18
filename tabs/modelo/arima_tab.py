@@ -1,4 +1,5 @@
 from datetime import timedelta
+from datetime import datetime
 import time
 import numpy as np
 import pandas as pd
@@ -6,25 +7,15 @@ import plotly.graph_objs as go
 import streamlit as st
 from tabs.tab import TabInterface
 import joblib
+from statsmodels.tsa.seasonal import seasonal_decompose
+from sklearn import metrics
 
 from utils.constantes import DATA_INICIAL
 from utils.layout import format_number
 
-
-
-
-import streamlit as st
-import pandas as pd
-import numpy as np
-from statsmodels.tsa.seasonal import seasonal_decompose
-import plotly.graph_objs as go
-from sklearn import metrics
 import scipy
 import plotly.express as px
-import joblib
 import pmdarima as pm
-from datetime import datetime
-
 
 
 class ModeloARIMATab(TabInterface):
