@@ -1,11 +1,12 @@
 import streamlit as st
-from utils.constantes import TITULO_PRINCIPAL, TITULO_REFERENCIAS
+from utils.constantes import TITULO_PRINCIPAL, TITULO_INSTRUCTIONS
 from utils.layout import output_layout
 
-from utils.constantes import TITULO_ANALISE_EXPLORATORIA, TITULO_HISTORIA, TITULO_INTRODUCAO, TITULO_MODELO, TITULO_REFLEXOES, TITULO_REFERENCIAS
-
-def format_number(number, format='%0.0f'):
-    return locale.format(format, number, grouping=True)
+st.set_page_config(
+    page_title=f"{TITULO_INSTRUCTIONS} | {TITULO_PRINCIPAL}",
+    layout="wide",
+)
+output_layout()
 
 with st._main:
 

@@ -13,8 +13,8 @@ from tabs.historia.evento6_tab import HistoriaEvento6Tab
 from tabs.historia.evento7_tab import HistoriaEvento7Tab
 from tabs.historia.evento8_tab import HistoriaEvento8Tab
 from tabs.historia.evento9_tab import HistoriaEvento9Tab
-from util.constantes import TITULO_HISTORIA, TITULO_PRINCIPAL
-from util.layout import output_layout
+from utils.constantes import TITULO_HISTORIA, TITULO_PRINCIPAL
+from utils.layout import output_layout
 
 st.set_page_config(
     page_title=f"{TITULO_HISTORIA} | {TITULO_PRINCIPAL}",
